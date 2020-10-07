@@ -14,7 +14,8 @@
         <div class="containe">
             <div class="row justify-content-center">
                 <div class="col-sm-6">
-                    <form action="" method="">
+
+                    <form action="add_movie_script.php" method="post" enctype="multipart/form-data">
                         <div class="form-group">
                             <label for="title">Movie title</label>
                             <input type="text" name="title" id="title" class="form-control">
@@ -23,8 +24,8 @@
                         <div class="form-group">
                             <label for="upload">Select movie image</label>
                             <input type="file" name="upload" id="upload" class="form-control-file">
-
                         </div>
+                        <input type="submit" value="Add Movie" name="submit" class="btn btn-primary">
                     </form>
                 </div>
             </div>
